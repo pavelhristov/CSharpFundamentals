@@ -1,0 +1,5 @@
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\SquareRoot\bin\Debug\SquareRoot.exe.config
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\SquareRoot\bin\Debug\SquareRoot.exe
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\SquareRoot\bin\Debug\SquareRoot.pdb
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\SquareRoot\obj\Debug\SquareRoot.exe
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\SquareRoot\obj\Debug\SquareRoot.pdb

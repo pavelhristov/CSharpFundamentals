@@ -1,0 +1,5 @@
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\PrintSequence\bin\Debug\PrintSequence.exe.config
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\PrintSequence\bin\Debug\PrintSequence.exe
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\PrintSequence\bin\Debug\PrintSequence.pdb
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\PrintSequence\obj\Debug\PrintSequence.exe
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\PrintSequence\obj\Debug\PrintSequence.pdb

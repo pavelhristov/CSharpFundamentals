@@ -1,0 +1,6 @@
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\HelloWorld\bin\Debug\HelloWorld.exe.config
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\HelloWorld\bin\Debug\HelloWorld.exe
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\HelloWorld\bin\Debug\HelloWorld.pdb
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\HelloWorld\obj\Debug\HelloWorld.exe
+c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\HelloWorld\obj\Debug\HelloWorld.pdb
