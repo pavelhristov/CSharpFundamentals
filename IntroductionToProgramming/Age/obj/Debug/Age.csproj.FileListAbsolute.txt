@@ -4,3 +4,9 @@ c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\
 c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\Age\obj\Debug\Age.exe
 c:\users\princa\documents\visual studio 2015\Projects\IntroductionToProgramming\Age\obj\Debug\Age.pdb
 C:\Users\Princa\Documents\Visual Studio 2015\Projects\IntroductionToProgramming\Age\obj\Debug\Age.csprojResolveAssemblyReference.cache
+D:\Projects\CSharpFundamentals\IntroductionToProgramming\Age\bin\Debug\Age.exe.config
+D:\Projects\CSharpFundamentals\IntroductionToProgramming\Age\obj\Debug\Age.exe
+D:\Projects\CSharpFundamentals\IntroductionToProgramming\Age\obj\Debug\Age.pdb
+D:\Projects\CSharpFundamentals\IntroductionToProgramming\Age\bin\Debug\Age.exe
+D:\Projects\CSharpFundamentals\IntroductionToProgramming\Age\bin\Debug\Age.pdb
+D:\Projects\CSharpFundamentals\IntroductionToProgramming\Age\obj\Debug\Age.csprojResolveAssemblyReference.cache
