@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 class ThirdDigit
 {
@@ -13,11 +12,7 @@ class ThirdDigit
         else
         { 
             string str = N.ToString();
-            char[] b = new char[str.Length];
-            using (StringReader sr = new StringReader(str))
-            {
-                sr.Read(b, 0, str.Length);
-            }
+            char[] b = str.ToCharArray(0, str.Length);
             if (b[str.Length - 3] == '7')
             {
                 Console.WriteLine("true");
