@@ -7,7 +7,7 @@ class PointCircleRectangle
         double y = double.Parse(Console.ReadLine());
         double distance = Math.Sqrt(Math.Pow(x-1, 2) + Math.Pow(y-1, 2));
 
-        if (distance<=(1.5*1.5))
+        if (distance<=(1.5))
         {
             Console.Write("inside circle ");
         }
@@ -15,9 +15,9 @@ class PointCircleRectangle
         {
             Console.Write("outside circle ");
         }
-        if ((x <= 2) && (x >= -4))
+        if ((x <= 5) && (x >= -1))
         {
-            if ((y <= 2) && (y >= 0))
+            if ((y <= 1) && (y >= -1))
             {
                 Console.WriteLine("inside rectangle");
             }
