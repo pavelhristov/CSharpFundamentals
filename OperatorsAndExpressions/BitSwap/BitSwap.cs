@@ -1,9 +1,13 @@
 ﻿using System;
-class BitExchange
+
+class BitSwap
 {
    static void Main()
    {
-      uint N = uint.Parse(Console.ReadLine());
+      uint n = uint.Parse(Console.ReadLine());
+      int p = int.Parse(Console.ReadLine());
+      int q = int.Parse(Console.ReadLine());
+      int k = int.Parse(Console.ReadLine());
       uint mask;
       uint nAndMask;
       uint mask1;
@@ -11,48 +15,48 @@ class BitExchange
       uint bit;
       uint bit1;
 
-      for (int i = 3; i < 6; i++)
+      for (int i = p; i < p + k; i++)
       {
          mask = (uint)1 << i;
-         nAndMask = N & mask;
+         nAndMask = n & mask;
          bit = nAndMask >> i;
          if (bit == 0)
          {
-            mask1 = (uint)1 << i + 21;
-           
-            nAndMask1 = N & mask1;
-            bit1 = nAndMask1 >> i;
-            if (bit1==0)
-            {
-               mask = (uint)1 << i;
-               N = N & (~mask);
-            }
-            else
-            {
-               mask = (uint)1 << i;
-               N = N | mask;
-            }
-            N = N & (~mask1);
-         }
-         else
-         {
-            mask1 = (uint)1 << i + 21;
-            
-            nAndMask1 = N & mask1;
+            mask1 = (uint)1 << i + (q - p);
+
+            nAndMask1 = n & mask1;
             bit1 = nAndMask1 >> i;
             if (bit1 == 0)
             {
                mask = (uint)1 << i;
-               N = N & (~mask);
+               n = n & (~mask);
             }
             else
             {
                mask = (uint)1 << i;
-               N = N | mask;
+               n = n | mask;
             }
-            N = N | mask1;
+            n = n & (~mask1);
+         }
+         else
+         {
+            mask1 = (uint)1 << i + (q - p);
+
+            nAndMask1 = n & mask1;
+            bit1 = nAndMask1 >> i;
+            if (bit1 == 0)
+            {
+               mask = (uint)1 << i;
+               n = n & (~mask);
+            }
+            else
+            {
+               mask = (uint)1 << i;
+               n = n | mask;
+            }
+            n = n | mask1;
          }
       }
-      Console.WriteLine(N);
+      Console.WriteLine(n);
    }
 }
